@@ -1,0 +1,3 @@
+ALTER TABLE "organizations" DROP COLUMN IF EXISTS "plan";
+
+DROP TABLE IF EXISTS "plans";

@@ -1,0 +1,52 @@
+{
+  "appName": "AI Gateway",
+  "nav": {
+    "dashboard": "Дашборд",
+    "apiKeys": "API-ключи",
+    "analytics": "Аналитика",
+    "chat": "Чат",
+    "imageGeneration": "Генерация изображений",
+    "overview": "Обзор",
+    "myDepartment": "Мой отдел",
+    "users": "Пользователи",
+    "departments": "Отделы",
+    "auditLog": "Журнал аудита",
+    "platformOverview": "Обзор платформы",
+    "organizations": "Организации",
+    "platformAdmins": "Администраторы платформы"
+  },
+  "roles": {
+    "superadmin": "Администратор платформы",
+    "admin": "Администратор организации",
+    "deptLead": "Руководитель отдела",
+    "member": "Пользователь"
+  },
+  "signOut": "Выйти",
+  "impersonation": {
+    "banner": "Вход от имени: <strong>{{orgName}}</strong> — действия как администратор",
+    "exit": "Выйти из режима",
+    "exiting": "Выход…"
+  },
+  "confirmModal": {
+    "delete": "Удалить",
+    "deleting": "Удаление…",
+    "cancel": "Отмена"
+  },
+  "buttons": {
+    "save": "Сохранить изменения",
+    "saving": "Сохранение…",
+    "saved": "✓ Сохранено",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "deleting": "Удаление…",
+    "send": "Отправить",
+    "sending": "Отправка…"
+  },
+  "fields": {
+    "email": "Email",
+    "password": "Пароль",
+    "firstName": "Имя",
+    "lastName": "Фамилия"
+  },
+  "loading": "Загрузка…"
+}

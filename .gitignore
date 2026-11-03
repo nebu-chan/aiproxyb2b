@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment files — never commit real secrets
+.env
+.env.local
+.env.production
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local config
+.claude/
+local_data.sql
+
+# Database dumps and runtime logs - never commit
+*.dump
+*.sql
+!backend/src/db/migrations/*.sql
+backend/logs/

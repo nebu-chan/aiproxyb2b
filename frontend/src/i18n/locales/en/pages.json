@@ -1,0 +1,1033 @@
+{
+  "profile": {
+    "heading": "My profile",
+    "subheading": "Manage your personal information and password",
+    "language": "Language",
+    "changePassword": "Change password",
+    "resetLinkSent": "Reset link sent to your email.",
+    "sendResetLink": "Send reset link",
+    "newPassword": "New password",
+    "minChars": "min 8 characters",
+    "confirmPassword": "Confirm password",
+    "repeatPassword": "Repeat new password",
+    "passwordMismatch": "Passwords do not match",
+    "saveFailed": "Failed to save"
+  },
+  "login": {
+    "subtitle": "Sign in to your account",
+    "errorFallback": "Login failed",
+    "emailPlaceholder": "you@company.com",
+    "passwordPlaceholder": "••••••••",
+    "signingIn": "Signing in…",
+    "signIn": "Sign in"
+  },
+  "register": {
+    "subtitle": "Create your organization",
+    "errorFallback": "Registration failed",
+    "orgNameLabel": "Organization name",
+    "orgNamePlaceholder": "Acme Corp",
+    "workEmailLabel": "Work email",
+    "emailPlaceholder": "you@company.com",
+    "passwordPlaceholder": "At least 8 characters",
+    "creatingAccount": "Creating account…",
+    "createAccount": "Create account",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+  "resetPassword": {
+    "subtitle": "Set a new password",
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "passwordMismatch": "Passwords do not match.",
+    "invalidLinkNoToken": "Invalid reset link — no token found.",
+    "genericError": "Failed to reset password.",
+    "invalidLink": "Invalid reset link. Please request a new one.",
+    "successMessage": "Password updated successfully. Redirecting to login…",
+    "newPasswordLabel": "New password",
+    "newPasswordPlaceholder": "min 8 characters",
+    "confirmPasswordLabel": "Confirm password",
+    "confirmPasswordPlaceholder": "repeat password",
+    "submit": "Set new password"
+  },
+  "impersonatePage": {
+    "invalidLink": "Invalid impersonation link.",
+    "failed": "Failed to start impersonation session. The link may have expired.",
+    "starting": "Starting impersonation session…"
+  },
+  "apiKeys": {
+    "accountBalance": "Account balance",
+    "balanceLoadError": "Could not load — check key is valid",
+    "refresh": "↻ Refresh",
+    "noDescription": "No description",
+    "active": "Active",
+    "inactive": "Inactive",
+    "hideBalance": "Hide balance",
+    "checkBalance": "Check balance",
+    "remove": "Remove",
+    "removeModalTitle": "Remove API key",
+    "removeModalMessage": "Remove \"{{name}}\"? Departments using it will lose access.",
+    "thisKey": "this key",
+    "removeKeyConfirm": "Remove key",
+    "addModalTitle": "Add AI Mediator Key",
+    "apiKeyLabel": "API Key",
+    "apiKeyPlaceholder": "Paste your AI Mediator API key…",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "e.g. Engineering department key",
+    "saveKey": "Save Key",
+    "saveFailed": "Failed to save key",
+    "title": "AI Mediator API Keys",
+    "subtitle": "Store up to {{max}} AI Mediator keys and assign them to departments. Keys are stored encrypted and never exposed in the browser.",
+    "addKey": "+ Add Key",
+    "emptyState": "No keys configured yet.",
+    "addFirstKey": "+ Add your first key",
+    "slotCounter": "{{count}} / {{max}} keys used",
+    "limitReached": " — limit reached",
+    "assignInfoPrefix": "Assign keys to departments on the",
+    "departmentsPageLink": "Departments page",
+    "assignInfoSuffix": ". Each department member will automatically use the key assigned to their department. If no key is assigned to a department, the fallback (legacy org-level) key is used."
+  },
+  "deptUserEdit": {
+    "saveFailed": "Failed to save",
+    "userNotFound": "User not found in your department.",
+    "modelAccessTitle": "Model access",
+    "modelAccessDescription": "Department restrictions take priority. Forbidden models cannot be used by this user.",
+    "loadingModels": "Loading models…",
+    "allowAll": "Allow all",
+    "forbidAll": "Forbid all",
+    "modelColumn": "Model",
+    "accessColumn": "Access",
+    "deptBlocked": "Dept blocked",
+    "allowed": "Allowed",
+    "blocked": "Blocked"
+  },
+  "adminAdmins": {
+    "subtitle": "Superadmin accounts with full platform access",
+    "addAdmin": "Add admin",
+    "table": {
+      "name": "Name",
+      "status": "Status",
+      "created": "Created",
+      "you": "(you)",
+      "active": "Active",
+      "inactive": "Inactive",
+      "resetPassword": "Reset password",
+      "remove": "Remove"
+    },
+    "errors": {
+      "createFailed": "Failed to create admin",
+      "deleteFailed": "Failed to delete admin"
+    },
+    "inviteModal": {
+      "title": "Add platform admin",
+      "initialPassword": "Initial password",
+      "firstNamePlaceholder": "Jane",
+      "lastNamePlaceholder": "Doe",
+      "emailPlaceholder": "jane@company.com",
+      "passwordPlaceholder": "Min 8 characters",
+      "create": "Create admin",
+      "creating": "Creating…"
+    },
+    "resetPasswordModal": {
+      "title": "Reset password",
+      "generated": "New password generated. Share it securely — it will not be shown again.",
+      "confirm": "Reset password for <email>{{email}}</email>? Their current session will be invalidated.",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "done": "Done",
+      "reset": "Reset password",
+      "resetting": "Resetting…"
+    },
+    "confirmDelete": {
+      "title": "Remove admin",
+      "message": "Remove {{email}} as a platform admin? They will lose all admin access.",
+      "confirmLabel": "Remove admin"
+    }
+  },
+  "platformLatency": {
+    "title": "Avg latency",
+    "subtitle": "Last 30 days · all organizations",
+    "msValue": "{{value}} ms",
+    "summary": {
+      "average": "Average",
+      "median": "Median (p50)",
+      "p50": "p50",
+      "p95": "p95",
+      "p99": "p99",
+      "fastest": "Fastest",
+      "slowest": "Slowest"
+    },
+    "chart": {
+      "title": "Latency over time",
+      "avg": "Avg"
+    },
+    "table": {
+      "title": "Latency by model",
+      "noData": "No data yet",
+      "columns": {
+        "model": "Model",
+        "requests": "Requests",
+        "min": "Min",
+        "max": "Max"
+      }
+    },
+    "slowest": {
+      "title": "Slowest requests (top 20)",
+      "columns": {
+        "time": "Time",
+        "organization": "Organization",
+        "duration": "Duration",
+        "tokens": "Tokens",
+        "status": "Status"
+      }
+    }
+  },
+  "platformSuccessRate": {
+    "title": "Success rate",
+    "subtitle": "Last 30 days · all organizations",
+    "noErrors": "No errors",
+    "summary": {
+      "successRate": "Success rate",
+      "errorRate": "Error rate",
+      "totalRequests": "Total requests",
+      "distinctErrorCodes": "Distinct error codes",
+      "succeeded": "{{count}} succeeded",
+      "failed": "{{count}} failed",
+      "last30Days": "last 30 days",
+      "uniqueStatusCodes": "unique status codes"
+    },
+    "chart": {
+      "requestsOverTime": "Requests over time",
+      "errorRateOverTime": "Error rate % over time",
+      "success": "Success",
+      "errors": "Errors",
+      "errorRate": "Error rate"
+    },
+    "byStatus": {
+      "title": "By status code",
+      "code": "Code",
+      "count": "Count",
+      "percentOfErrors": "% of errors"
+    },
+    "byModel": {
+      "title": "By model",
+      "model": "Model",
+      "errors": "Errors",
+      "errorRate": "Error rate"
+    },
+    "byOrg": {
+      "title": "By org",
+      "organization": "Organization",
+      "errors": "Errors",
+      "errorRate": "Error rate"
+    }
+  },
+  "platformTokenUsage": {
+    "title": "Token usage",
+    "subtitle": "Last 30 days · all organizations",
+    "chartTitle": "Token usage over time",
+    "msValue": "{{value}} ms",
+    "summary": {
+      "totalTokens": "Total tokens",
+      "today": "{{count}} today",
+      "topOrg": "Top org",
+      "topModel": "Top model",
+      "tokensCount": "{{count}} tokens",
+      "noDataYet": "No data yet"
+    },
+    "tabs": {
+      "byModel": "By model",
+      "byOrg": "By org"
+    },
+    "columns": {
+      "model": "Model",
+      "tokens": "Tokens",
+      "percentage": "Percentage",
+      "requests": "Requests",
+      "avgLatency": "Avg latency",
+      "organization": "Organization",
+      "topModel": "Top model"
+    }
+  },
+  "platformRequests": {
+    "title": "Request log",
+    "totalRequests": "{{count}} total requests across all organizations",
+    "allRequests": "All platform requests",
+    "loadingRequests": "Loading requests…",
+    "noRequestsYet": "No requests yet",
+    "msValue": "{{value}} ms",
+    "columns": {
+      "time": "Time",
+      "model": "Model",
+      "user": "User",
+      "organization": "Organization",
+      "prompt": "Prompt",
+      "completion": "Completion",
+      "totalTokens": "Total tokens",
+      "latency": "Latency",
+      "status": "Status"
+    },
+    "detail": {
+      "requestId": "Request ID",
+      "endpoint": "Endpoint",
+      "userId": "User ID",
+      "orgId": "Org ID",
+      "error": "Error"
+    },
+    "pagination": {
+      "range": "{{from}}–{{to}} of {{total}} requests",
+      "show": "Show",
+      "previous": "← Previous",
+      "next": "Next →"
+    }
+  },
+  "orgDepartments": {
+    "title": "Departments",
+    "subtitle": "Manage departments in your organization",
+    "addButton": "+ Add Department",
+    "addModal": {
+      "title": "Add Department",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Engineering",
+      "creating": "Creating…",
+      "create": "Create department"
+    },
+    "table": {
+      "name": "Name",
+      "modelSettings": "Model settings",
+      "apiKey": "API key",
+      "users": "Users",
+      "created": "Created"
+    },
+    "modelSettings": {
+      "configured": "Configured",
+      "default": "Default (all allowed)"
+    },
+    "apiKey": {
+      "assigned": "Assigned",
+      "notSet": "Not set"
+    },
+    "empty": "No departments yet",
+    "confirmDelete": {
+      "title": "Delete department",
+      "message": "Permanently delete \"{{name}}\"? Users assigned to it will be unassigned.",
+      "confirmLabel": "Delete department"
+    }
+  },
+  "orgUserEdit": {
+    "backToUsers": "← Users",
+    "notFound": "User not found.",
+    "saveFailed": "Failed to save",
+    "password": {
+      "mismatch": "Passwords do not match",
+      "tooShort": "Password must be at least 8 characters"
+    },
+    "profile": {
+      "title": "Profile",
+      "phone": "Phone"
+    },
+    "account": {
+      "title": "Account",
+      "role": "Role",
+      "roleOptions": {
+        "member": "Member",
+        "admin": "Admin"
+      },
+      "department": "Department",
+      "noDepartment": "— none —",
+      "balanceLabel": "Monthly balance limit (₽)",
+      "balancePlaceholder": "Unlimited",
+      "spentPrefix": "Spent this period:",
+      "ofLimit": "of {{limit}} ₽",
+      "sincePeriod": "(since {{date}})",
+      "balanceHint": "Max rubles this user may spend per month. Leave blank for no limit."
+    },
+    "modelAccess": {
+      "title": "Model access",
+      "description": "Department restrictions take priority. Forbidden models cannot be used by this user.",
+      "textModels": "Text models",
+      "imageModels": "Image models",
+      "loadingModels": "Loading models…",
+      "allowAll": "Allow all",
+      "forbidAll": "Forbid all",
+      "noDepartmentSelected": "No department selected",
+      "copyDepartmentPolicy": "Copy department model policy to this user",
+      "resetToDepartment": "Reset to department",
+      "showForbidden": "Show forbidden models",
+      "tableModel": "Model",
+      "tableAccess": "Access",
+      "allowed": "Allowed",
+      "blocked": "Blocked"
+    },
+    "changePassword": {
+      "title": "Change Password",
+      "resetLinkSent": "Reset link sent.",
+      "resetLinkFailed": "Failed to send.",
+      "hidePassword": "Hide password",
+      "showPassword": "Show password",
+      "sending": "Sending…",
+      "sendResetLink": "Send reset link",
+      "newPassword": "New password",
+      "minChars": "min 8 characters",
+      "confirmPassword": "Confirm password",
+      "repeatPassword": "repeat password",
+      "success": "Password changed successfully.",
+      "changing": "Changing…",
+      "change": "Change password"
+    },
+    "dangerZone": {
+      "title": "Danger zone",
+      "description": "Permanently delete this user. This cannot be undone.",
+      "deleteButton": "Delete user"
+    },
+    "confirmDelete": {
+      "title": "Delete user",
+      "message": "Permanently delete {{email}}? This cannot be undone.",
+      "confirmLabel": "Delete user"
+    }
+  },
+  "orgDepartmentEdit": {
+    "saveFailed": "Failed to save",
+    "notFound": "Department not found.",
+    "backToDepartments": "← Departments",
+    "userCount_one": "{{count}} user",
+    "userCount_other": "{{count}} users",
+    "general": {
+      "title": "General",
+      "name": "Name",
+      "aiMediatorKey": "AI Mediator Key",
+      "useFallbackKey": "— Use fallback (org-level key) —",
+      "keyFallbackLabel": "Key {{id}}…",
+      "aiMediatorKeyHint": "Members will use this key when chatting.",
+      "balanceLabel": "Monthly balance limit (₽)",
+      "balancePlaceholder": "Unlimited",
+      "spentPrefix": "Spent this period:",
+      "ofLimit": "of {{limit}} ₽",
+      "sincePeriod": "(since {{date}})",
+      "balanceHint": "Max rubles all members may spend combined per month. Leave blank for no limit."
+    },
+    "tabs": {
+      "members": "Members",
+      "policies": "Policies"
+    },
+    "members": {
+      "empty": "No members yet.",
+      "table": {
+        "name": "Name",
+        "role": "Role",
+        "status": "Status",
+        "joined": "Joined"
+      },
+      "roles": {
+        "admin": "Admin",
+        "superadmin": "Super Admin",
+        "member": "Member"
+      },
+      "clickToDisable": "Click to disable",
+      "clickToEnable": "Click to enable",
+      "active": "Active",
+      "inactive": "Inactive",
+      "remove": "Remove",
+      "searchPlaceholder": "Search to add a member…",
+      "noUsersFound": "No users found",
+      "add": "Add"
+    },
+    "policies": {
+      "title": "Model access",
+      "description": "Department restrictions take priority over user settings. Forbidden models cannot be used by department members.",
+      "textModels": "Text models",
+      "imageModels": "Image models",
+      "loadingModels": "Loading models…",
+      "allowAll": "Allow all",
+      "forbidAll": "Forbid all",
+      "showForbidden": "Show forbidden models",
+      "tableModel": "Model",
+      "tableAccess": "Access",
+      "allowed": "Allowed",
+      "blocked": "Blocked"
+    },
+    "dangerZone": {
+      "title": "Danger zone",
+      "description": "Permanently delete this department. Users assigned to it will be unassigned.",
+      "deleteButton": "Delete department"
+    },
+    "confirmDelete": {
+      "title": "Delete department",
+      "message": "Permanently delete \"{{name}}\"? Users assigned to it will be unassigned.",
+      "confirmLabel": "Delete department"
+    }
+  },
+  "adminProviders": {
+    "title": "Providers",
+    "subtitle": "Configure upstream AI API providers",
+    "form": {
+      "editTitle": "Edit provider",
+      "addTitle": "Add provider",
+      "name": "Name (slug)",
+      "baseUrl": "Base URL",
+      "authHeaderName": "Auth header name",
+      "authHeaderPrefix": "Auth header prefix",
+      "apiKey": "API Key (upstream secret)",
+      "addProvider": "Add provider"
+    },
+    "empty": "No providers configured yet",
+    "table": {
+      "name": "Name",
+      "baseUrl": "Base URL",
+      "authHeader": "Auth header",
+      "status": "Status",
+      "active": "Active",
+      "disabled": "Disabled",
+      "edit": "Edit"
+    },
+    "confirmDelete": {
+      "title": "Delete provider",
+      "message": "Permanently delete \"{{name}}\"? This cannot be undone.",
+      "confirmLabel": "Delete provider"
+    }
+  },
+  "superAdminDashboard": {
+    "title": "Platform Overview",
+    "header": {
+      "last": "Last",
+      "daysOverview": "days overview"
+    },
+    "stats": {
+      "totalRequests": "Total requests",
+      "lastNDays_one": "last {{count}} day",
+      "lastNDays_other": "last {{count}} days",
+      "successRate": "Success rate",
+      "succeeded": "{{value}} succeeded",
+      "tokensUsed": "Tokens used",
+      "today": "{{value}} today",
+      "avgLatency": "Avg latency",
+      "msValue": "{{value}} ms",
+      "perRequest": "per request"
+    },
+    "charts": {
+      "requestsPerDay": "Requests per day",
+      "tokenUsagePerDay": "Token usage per day"
+    }
+  },
+  "adminOrganizations": {
+    "title": "Organizations",
+    "subtitle_one": "{{count}} organization on the platform",
+    "subtitle_other": "{{count}} organizations on the platform",
+    "table": {
+      "organization": "Organization",
+      "created": "Created",
+      "users": "Users",
+      "departments": "Departments",
+      "requests30d": "Requests 30d",
+      "tokens30d": "Tokens 30d",
+      "lastActive": "Last active",
+      "admins": "Admins"
+    },
+    "loginAs": {
+      "failed": "Failed",
+      "noAdmins": "No admins",
+      "inactiveSuffix": " (inactive)",
+      "opening": "Opening…",
+      "loginAs": "Login as"
+    }
+  },
+  "requests": {
+    "title": "Request log",
+    "totalRequests": "{{count}} total requests",
+    "allRequests": "All API requests",
+    "loading": "Loading requests…",
+    "empty": {
+      "title": "No requests yet",
+      "subtitle": "Requests will appear here once users start making API calls"
+    },
+    "columns": {
+      "time": "Time",
+      "model": "Model",
+      "user": "User",
+      "prompt": "Prompt",
+      "completion": "Completion",
+      "totalTokens": "Total tokens",
+      "cost": "Cost (₽)",
+      "latency": "Latency",
+      "status": "Status"
+    },
+    "msValue": "{{value}} ms",
+    "detail": {
+      "requestId": "Request ID",
+      "endpoint": "Endpoint",
+      "userId": "User ID",
+      "error": "Error"
+    },
+    "pagination": {
+      "range": "{{from}}–{{to}} of {{total}} requests",
+      "show": "Show",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "auditLog": {
+    "actions": {
+      "userCreated": "User created",
+      "userEnabled": "User enabled",
+      "userDisabled": "User disabled",
+      "userInfoUpdated": "User info updated",
+      "userPolicyUpdated": "User policy updated",
+      "userBalanceUpdated": "User balance updated",
+      "userDeleted": "User deleted",
+      "passwordResetSent": "Password reset sent",
+      "removedFromDept": "Removed from dept",
+      "departmentCreated": "Department created",
+      "departmentInfoUpdated": "Department info updated",
+      "departmentPolicyUpdated": "Department policy updated",
+      "departmentBalanceUpdated": "Department balance updated",
+      "departmentDeleted": "Department deleted",
+      "orgUpdated": "Org updated",
+      "quotaUpdated": "Quota updated",
+      "apiKeySet": "API key set",
+      "apiKeyRemoved": "API key removed",
+      "providerCreated": "Provider created",
+      "providerUpdated": "Provider updated",
+      "providerDeleted": "Provider deleted"
+    },
+    "targetTypes": {
+      "user": "User",
+      "department": "Department",
+      "org": "Organization",
+      "provider": "Provider"
+    },
+    "export": {
+      "columns": {
+        "time": "Time",
+        "actor": "Actor",
+        "action": "Action",
+        "targetType": "Target type",
+        "target": "Target",
+        "before": "Before",
+        "after": "After",
+        "ip": "IP"
+      },
+      "sheetName": "Audit Log",
+      "pdfTitle": "Audit Log ({{label}})",
+      "exportedOn": "Exported {{date}}",
+      "exportFailed": "Export failed",
+      "button": "Export",
+      "periodLabel": "Export period",
+      "from": "From",
+      "to": "To",
+      "periods": {
+        "today": "Today",
+        "last7Days": "Last 7 days",
+        "last30Days": "Last 30 days",
+        "thisMonth": "This month",
+        "customRange": "Custom range"
+      }
+    },
+    "diff": {
+      "access": "Access",
+      "allowed": "allowed",
+      "blocked": "blocked",
+      "dailyLimit": "Daily limit",
+      "noModelChanges": "No model changes detected",
+      "empty": "(empty)",
+      "yes": "yes",
+      "no": "no",
+      "changed": "(changed)",
+      "modelPolicyChanges": "Model policy changes"
+    },
+    "filters": {
+      "allActions": "All actions",
+      "allTargets": "All targets",
+      "searchPlaceholder": "Search actor or target…",
+      "clearFilters": "Clear filters"
+    },
+    "entriesCount": "{{count}} entries",
+    "loading": "Loading audit log…",
+    "empty": {
+      "title": "No audit entries found",
+      "subtitle": "Try adjusting your filters or date range"
+    },
+    "pagination": {
+      "range": "{{from}}–{{to}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "latency": {
+    "title": "Avg latency",
+    "subtitle": "Last 30 days latency breakdown",
+    "cards": {
+      "average": "Average",
+      "median": "Median (p50)",
+      "p95": "p95",
+      "p99": "p99",
+      "fastest": "Fastest",
+      "slowest": "Slowest"
+    },
+    "msValue": "{{value}} ms",
+    "chart": {
+      "title": "Latency over time",
+      "avg": "Avg"
+    },
+    "byModel": {
+      "title": "Latency by model"
+    },
+    "noData": "No data yet",
+    "columns": {
+      "model": "Model",
+      "requests": "Requests",
+      "p50": "p50",
+      "min": "Min",
+      "max": "Max",
+      "time": "Time",
+      "user": "User",
+      "duration": "Duration",
+      "tokens": "Tokens",
+      "status": "Status"
+    },
+    "slowest": {
+      "title": "Slowest requests (top 20)"
+    }
+  },
+  "successRate": {
+    "title": "Success rate",
+    "subtitle": "Last 30 days error breakdown",
+    "cards": {
+      "successRate": "Success rate",
+      "succeeded": "{{count}} succeeded",
+      "errorRate": "Error rate",
+      "failed": "{{count}} failed",
+      "totalRequests": "Total requests",
+      "last30Days": "last 30 days",
+      "distinctErrorCodes": "Distinct error codes",
+      "uniqueStatusCodes": "unique status codes"
+    },
+    "charts": {
+      "requestsOverTime": "Requests over time",
+      "success": "Success",
+      "errors": "Errors",
+      "errorRateOverTime": "Error rate % over time",
+      "errorRate": "Error rate"
+    },
+    "byStatusCode": {
+      "title": "By status code",
+      "code": "Code",
+      "count": "Count",
+      "pctOfErrors": "% of errors"
+    },
+    "noErrors": "No errors",
+    "byModel": {
+      "title": "By model",
+      "model": "Model",
+      "errors": "Errors"
+    },
+    "byUser": {
+      "title": "By user",
+      "user": "User"
+    },
+    "noRecords": "No records found",
+    "msValue": "{{value}} ms"
+  },
+  "tokenUsage": {
+    "title": "Token usage",
+    "subtitle": "Last 30 days breakdown",
+    "cards": {
+      "totalTokens": "Total tokens",
+      "today": "{{count}} today",
+      "topUser": "Top user",
+      "tokensCount": "{{count}} tokens",
+      "noDataYet": "No data yet",
+      "topDepartment": "Top department"
+    },
+    "chart": {
+      "title": "Token usage over time"
+    },
+    "tabs": {
+      "byUser": "By user",
+      "byDepartment": "By department",
+      "byModel": "By model"
+    },
+    "noDataYet": "No data yet",
+    "columns": {
+      "user": "User",
+      "tokens": "Tokens",
+      "percentage": "Percentage",
+      "requests": "Requests",
+      "topModel": "Top model",
+      "department": "Department",
+      "model": "Model",
+      "avgLatency": "Avg latency"
+    },
+    "msValue": "{{value}} ms"
+  },
+  "orgUsers": {
+    "addModal": {
+      "title": "Add user",
+      "firstNamePlaceholder": "Jane",
+      "lastNamePlaceholder": "Doe",
+      "emailPlaceholder": "jane@company.com",
+      "role": "Role",
+      "department": "Department",
+      "creating": "Creating…",
+      "createUser": "Create user"
+    },
+    "createFailed": "Failed to create user",
+    "subtitle": "Manage members of your organization",
+    "addUser": "Add User",
+    "loadingUsers": "Loading users…",
+    "columns": {
+      "name": "Name",
+      "role": "Role",
+      "status": "Status",
+      "joined": "Joined"
+    },
+    "filters": {
+      "searchName": "Search name…",
+      "searchEmail": "Search email…",
+      "allRoles": "All roles",
+      "allDepartments": "All departments",
+      "allStatuses": "All statuses",
+      "allTime": "All time",
+      "today": "Today",
+      "last7Days": "Last 7 days",
+      "last30Days": "Last 30 days",
+      "last3Months": "Last 3 months",
+      "thisYear": "This year"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "clickToDisable": "Click to disable",
+      "clickToEnable": "Click to enable"
+    },
+    "me": "(me)",
+    "noMatch": "No users match the current filters",
+    "clearFilters": "Clear filters",
+    "footer": {
+      "filteredCount": "{{filtered}} of {{total}} users",
+      "totalCount": "{{count}} users total"
+    }
+  },
+  "dashboard": {
+    "last": "Last",
+    "daysOverviewSuffix": "days overview",
+    "stats": {
+      "totalRequests": "Total requests",
+      "successRate": "Success rate",
+      "tokensUsed": "Tokens used",
+      "avgLatency": "Avg latency",
+      "lastNDays": "last {{count}} days",
+      "succeeded": "{{count}} succeeded",
+      "today": "{{count}} today",
+      "perRequest": "per request",
+      "msValue": "{{value}} ms"
+    },
+    "spentThisMonth": "Spent this month",
+    "since": "since {{date}}",
+    "requestsPerDay": "Requests per day",
+    "tokenUsagePerDay": "Token usage per day",
+    "billingCycle": {
+      "title": "Billing cycle",
+      "description": "Balance limits for users and departments reset on this day of every month.",
+      "currentPeriodStarted": "Current period started on the <strong>{{day}}</strong>.",
+      "resetOnThe": "Reset on the",
+      "ofMonth": "of month",
+      "maxDayNote": "Max day is 28 to work correctly in all months."
+    }
+  },
+  "deptDashboard": {
+    "title": "Department overview",
+    "subtitle": "Last 30 days · your department's activity",
+    "stats": {
+      "totalRequests": "Total requests",
+      "last30Days": "last 30 days",
+      "totalTokens": "Total tokens",
+      "deptSpendThisMonth": "Dept spend this month",
+      "ofLimitSince": "of {{limit}} ₽ · since {{date}}"
+    },
+    "requestsPerDay": "Requests per day",
+    "noDataYet": "No data yet",
+    "chartLegend": {
+      "requests": "Requests",
+      "errors": "Errors"
+    },
+    "byModel": { "title": "By model" },
+    "byUser": { "title": "By user" },
+    "columns": {
+      "model": "Model",
+      "requests": "Requests",
+      "tokens": "Tokens",
+      "user": "User",
+      "topModel": "Top model"
+    }
+  },
+  "myDepartment": {
+    "notAssigned": "You are not assigned to a department. Please contact your administrator.",
+    "addMember": "+ Add Member",
+    "memberCount_one": "{{count}} member",
+    "memberCount_other": "{{count}} members",
+    "addForm": {
+      "firstNamePlaceholder": "John",
+      "lastNamePlaceholder": "Doe",
+      "emailPlaceholder": "user@example.com",
+      "passwordPlaceholder": "min 8 chars",
+      "add": "Add",
+      "createError": "Failed to create user"
+    },
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "limits": "Limits",
+      "joined": "Joined"
+    },
+    "me": "(me)",
+    "configured": "Configured",
+    "default": "Default",
+    "noMembers": "No members yet"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "periodColon": "Period:",
+    "periods": {
+      "today": "Today",
+      "7d": "Last 7 days",
+      "30d": "Last 30 days",
+      "month": "This month",
+      "custom": "Custom"
+    },
+    "usageOverTime": "Usage over time",
+    "metrics": { "requests": "Requests", "tokens": "Tokens" },
+    "byModel": { "title": "By model", "empty": "No model usage data for this period" },
+    "byUser": { "title": "By user", "empty": "No user activity for this period" },
+    "byDepartment": { "title": "By department", "empty": "No department activity for this period" },
+    "columns": {
+      "model": "Model",
+      "requests": "Requests",
+      "tokens": "Tokens",
+      "avgLatency": "Avg latency",
+      "name": "Name",
+      "email": "Email",
+      "topModel": "Top model",
+      "department": "Department",
+      "time": "Time",
+      "user": "User",
+      "latency": "Latency",
+      "status": "Status"
+    },
+    "msValue": "{{value}} ms",
+    "requestLog": {
+      "title": "Request log",
+      "loading": "Loading requests…",
+      "empty": { "title": "No requests in this period", "subtitle": "Try selecting a wider date range" }
+    },
+    "pagination": {
+      "range": "{{from}}–{{to}} of {{total}} requests",
+      "show": "Show",
+      "previous": "← Previous",
+      "next": "Next →"
+    },
+    "export": {
+      "button": "Export",
+      "periodLabel": "Export period",
+      "from": "From",
+      "to": "To",
+      "exportFailed": "Export failed"
+    },
+    "exportPeriods": {
+      "today": "Today",
+      "7d": "Last 7 days",
+      "30d": "Last 30 days",
+      "month": "This month",
+      "custom": "Custom range"
+    }
+  },
+  "chat": {
+    "thinking": "Thinking…",
+    "errors": {
+      "insufficientBalance": "Insufficient balance on your AI Mediator account. Please refill the balance and try again.",
+      "requestFailed": "Request failed"
+    },
+    "imageFallbackTitle": "📷 Image",
+    "newChat": "New chat",
+    "noConversations": "No conversations yet",
+    "history": {
+      "groups": {
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "last7Days": "Previous 7 days",
+        "older": "Older"
+      }
+    },
+    "deleteConversation": "Delete conversation",
+    "monthlyBudget": "Monthly budget",
+    "ofLimit": "of {{limit}} ₽",
+    "dropImageHere": "Drop image here",
+    "keyConfigured": "AI Mediator key configured",
+    "noApiKey": "No API key",
+    "addOne": "add one",
+    "noDepartment": "You're not assigned to a department — no API key available.",
+    "noDepartmentKey": "Your department has no API key assigned.",
+    "contactAdmin": "Contact your administrator.",
+    "model": "Model",
+    "refreshModelList": "Refresh model list",
+    "refresh": "↻ Refresh",
+    "loadingModels": "Loading models…",
+    "noModelsAvailable": "— no models available —",
+    "failedToLoadModels": "Failed to load models — check your API key balance.",
+    "dailyLimitReached": "Daily token limit reached ({{limit}} tokens). Usage resets tomorrow.",
+    "tokensUsedToday": "Tokens used today",
+    "chatUnavailable": "Chat unavailable",
+    "noDepartmentNoKey": "You're not assigned to a department and don't have an API key. Please contact your administrator.",
+    "noDepartmentKeyLong": "Your department doesn't have an API key assigned. Please contact your administrator.",
+    "startConversation": "Start a conversation",
+    "modelViaMediator": "{{model}} · AI Mediator",
+    "selectModelAbove": "Select a model above",
+    "dragDropHint": "Drag & drop or paste an image to attach it",
+    "aiAvatar": "AI",
+    "meAvatar": "Me",
+    "attachedImageAlt": "attached",
+    "attachmentPreviewAlt": "attachment preview",
+    "attachImage": "Attach image",
+    "messagePlaceholder": "Type a message… (Enter to send, Shift+Enter for new line)",
+    "poweredBy": "Powered by AI Mediator · requests proxied through your org's gateway"
+  },
+  "imageGen": {
+    "errors": {
+      "insufficientBalance": "Insufficient balance on your AI Mediator account. Please refill the balance and try again.",
+      "requestFailed": "Request failed"
+    },
+    "newImage": "New image",
+    "noImagesYet": "No images yet",
+    "deleteImage": "Delete image",
+    "monthlyBudget": "Monthly budget",
+    "ofLimit": "of {{limit}} ₽",
+    "keyConfigured": "AI Mediator key configured",
+    "noApiKey": "No API key",
+    "addOne": "add one",
+    "model": "Model",
+    "refresh": "↻ Refresh",
+    "noModels": "— no models —",
+    "noApiKeyShort": "— no API key —",
+    "failedToLoadModels": "Failed to load models",
+    "size": "Size",
+    "defaultOption": "Default",
+    "quality": "Quality",
+    "qualityOptions": {
+      "default": "Default",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "count": "Count",
+    "generateAnImage": "Generate an image",
+    "enterApiKeyHint": "Enter your API key to get started",
+    "enterPromptHint": "Enter a prompt below and click Generate",
+    "generatingImage": "Generating image…",
+    "elapsedHint": "{{count}}s elapsed · this may take up to a minute",
+    "qualitySuffix": "{{quality}} quality",
+    "download": "Download",
+    "openFullSize": "Open full size",
+    "revisedPrefix": "Revised:",
+    "promptPlaceholder": "Describe the image you want to generate… (Enter to generate)",
+    "generatingShort": "Generating… {{count}}s",
+    "generate": "Generate",
+    "poweredBy": "Powered by AI Mediator · images stored in your org's gateway"
+  }
+}

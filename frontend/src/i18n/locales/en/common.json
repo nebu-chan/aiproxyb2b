@@ -1,0 +1,52 @@
+{
+  "appName": "AI Gateway",
+  "nav": {
+    "dashboard": "Dashboard",
+    "apiKeys": "API Keys",
+    "analytics": "Analytics",
+    "chat": "Chat",
+    "imageGeneration": "Image Generation",
+    "overview": "Overview",
+    "myDepartment": "My department",
+    "users": "Users",
+    "departments": "Departments",
+    "auditLog": "Audit Log",
+    "platformOverview": "Platform Overview",
+    "organizations": "Organizations",
+    "platformAdmins": "Platform Admins"
+  },
+  "roles": {
+    "superadmin": "Platform Admin",
+    "admin": "Org Admin",
+    "deptLead": "Department Lead",
+    "member": "User"
+  },
+  "signOut": "Sign out",
+  "impersonation": {
+    "banner": "Impersonating: <strong>{{orgName}}</strong> — acting as admin",
+    "exit": "Exit",
+    "exiting": "Exiting…"
+  },
+  "confirmModal": {
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "cancel": "Cancel"
+  },
+  "buttons": {
+    "save": "Save changes",
+    "saving": "Saving…",
+    "saved": "✓ Saved",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "send": "Send",
+    "sending": "Sending…"
+  },
+  "fields": {
+    "email": "Email",
+    "password": "Password",
+    "firstName": "First name",
+    "lastName": "Last name"
+  },
+  "loading": "Loading…"
+}

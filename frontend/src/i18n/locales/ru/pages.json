@@ -1,0 +1,1041 @@
+{
+  "profile": {
+    "heading": "Мой профиль",
+    "subheading": "Управление личными данными и паролем",
+    "language": "Язык",
+    "changePassword": "Смена пароля",
+    "resetLinkSent": "Ссылка для сброса пароля отправлена на вашу почту.",
+    "sendResetLink": "Отправить ссылку для сброса",
+    "newPassword": "Новый пароль",
+    "minChars": "минимум 8 символов",
+    "confirmPassword": "Подтвердите пароль",
+    "repeatPassword": "Повторите новый пароль",
+    "passwordMismatch": "Пароли не совпадают",
+    "saveFailed": "Не удалось сохранить"
+  },
+  "login": {
+    "subtitle": "Войдите в свою учётную запись",
+    "errorFallback": "Не удалось войти",
+    "emailPlaceholder": "you@company.com",
+    "passwordPlaceholder": "••••••••",
+    "signingIn": "Выполняется вход…",
+    "signIn": "Войти"
+  },
+  "register": {
+    "subtitle": "Создайте организацию",
+    "errorFallback": "Не удалось зарегистрироваться",
+    "orgNameLabel": "Название организации",
+    "orgNamePlaceholder": "ООО «Ромашка»",
+    "workEmailLabel": "Рабочий email",
+    "emailPlaceholder": "you@company.com",
+    "passwordPlaceholder": "Не менее 8 символов",
+    "creatingAccount": "Создание аккаунта…",
+    "createAccount": "Создать аккаунт",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "signIn": "Войти"
+  },
+  "resetPassword": {
+    "subtitle": "Задайте новый пароль",
+    "passwordTooShort": "Пароль должен содержать не менее 8 символов.",
+    "passwordMismatch": "Пароли не совпадают.",
+    "invalidLinkNoToken": "Недействительная ссылка для сброса пароля — токен не найден.",
+    "genericError": "Не удалось сбросить пароль.",
+    "invalidLink": "Недействительная ссылка для сброса пароля. Запросите новую.",
+    "successMessage": "Пароль успешно изменён. Выполняется переход на страницу входа…",
+    "newPasswordLabel": "Новый пароль",
+    "newPasswordPlaceholder": "не менее 8 символов",
+    "confirmPasswordLabel": "Подтвердите пароль",
+    "confirmPasswordPlaceholder": "повторите пароль",
+    "submit": "Задать новый пароль"
+  },
+  "impersonatePage": {
+    "invalidLink": "Недействительная ссылка для входа от имени пользователя.",
+    "failed": "Не удалось начать сеанс входа от имени пользователя. Возможно, срок действия ссылки истёк.",
+    "starting": "Запуск сеанса входа от имени пользователя…"
+  },
+  "apiKeys": {
+    "accountBalance": "Баланс счёта",
+    "balanceLoadError": "Не удалось загрузить — проверьте корректность ключа",
+    "refresh": "↻ Обновить",
+    "noDescription": "Без описания",
+    "active": "Активен",
+    "inactive": "Неактивен",
+    "hideBalance": "Скрыть баланс",
+    "checkBalance": "Проверить баланс",
+    "remove": "Удалить",
+    "removeModalTitle": "Удаление API-ключа",
+    "removeModalMessage": "Удалить «{{name}}»? Отделы, использующие этот ключ, потеряют доступ.",
+    "thisKey": "этот ключ",
+    "removeKeyConfirm": "Удалить ключ",
+    "addModalTitle": "Добавить ключ AI Mediator",
+    "apiKeyLabel": "API-ключ",
+    "apiKeyPlaceholder": "Вставьте ваш API-ключ AI Mediator…",
+    "descriptionLabel": "Описание",
+    "descriptionPlaceholder": "например, ключ отдела разработки",
+    "saveKey": "Сохранить ключ",
+    "saveFailed": "Не удалось сохранить ключ",
+    "title": "API-ключи AI Mediator",
+    "subtitle": "Храните до {{max}} ключей AI Mediator и назначайте их отделам. Ключи хранятся в зашифрованном виде и никогда не отображаются в браузере.",
+    "addKey": "+ Добавить ключ",
+    "emptyState": "Ключи ещё не настроены.",
+    "addFirstKey": "+ Добавить первый ключ",
+    "slotCounter": "{{count}} / {{max}} ключей использовано",
+    "limitReached": " — достигнут лимит",
+    "assignInfoPrefix": "Назначайте ключи отделам на странице",
+    "departmentsPageLink": "Отделы",
+    "assignInfoSuffix": ". Каждый участник отдела будет автоматически использовать ключ, назначенный его отделу. Если отделу не назначен ключ, используется резервный (устаревший, уровня организации) ключ."
+  },
+  "deptUserEdit": {
+    "saveFailed": "Не удалось сохранить",
+    "userNotFound": "Пользователь не найден в вашем отделе.",
+    "modelAccessTitle": "Доступ к моделям",
+    "modelAccessDescription": "Ограничения отдела имеют приоритет. Запрещённые модели недоступны этому пользователю.",
+    "loadingModels": "Загрузка моделей…",
+    "allowAll": "Разрешить все",
+    "forbidAll": "Запретить все",
+    "modelColumn": "Модель",
+    "accessColumn": "Доступ",
+    "deptBlocked": "Заблокировано отделом",
+    "allowed": "Разрешено",
+    "blocked": "Заблокировано"
+  },
+  "adminAdmins": {
+    "subtitle": "Аккаунты суперадминистраторов с полным доступом к платформе",
+    "addAdmin": "Добавить администратора",
+    "table": {
+      "name": "Имя",
+      "status": "Статус",
+      "created": "Создан",
+      "you": "(вы)",
+      "active": "Активен",
+      "inactive": "Неактивен",
+      "resetPassword": "Сбросить пароль",
+      "remove": "Удалить"
+    },
+    "errors": {
+      "createFailed": "Не удалось создать администратора",
+      "deleteFailed": "Не удалось удалить администратора"
+    },
+    "inviteModal": {
+      "title": "Добавить администратора платформы",
+      "initialPassword": "Первоначальный пароль",
+      "firstNamePlaceholder": "Иван",
+      "lastNamePlaceholder": "Иванов",
+      "emailPlaceholder": "ivan@company.com",
+      "passwordPlaceholder": "Минимум 8 символов",
+      "create": "Создать администратора",
+      "creating": "Создание…"
+    },
+    "resetPasswordModal": {
+      "title": "Сброс пароля",
+      "generated": "Новый пароль создан. Передайте его безопасным способом — повторно он показан не будет.",
+      "confirm": "Сбросить пароль для <email>{{email}}</email>? Текущая сессия пользователя будет завершена.",
+      "copy": "Скопировать",
+      "copied": "Скопировано!",
+      "done": "Готово",
+      "reset": "Сбросить пароль",
+      "resetting": "Сброс…"
+    },
+    "confirmDelete": {
+      "title": "Удаление администратора",
+      "message": "Удалить {{email}} из числа администраторов платформы? Пользователь потеряет весь административный доступ.",
+      "confirmLabel": "Удалить администратора"
+    }
+  },
+  "platformLatency": {
+    "title": "Средняя задержка",
+    "subtitle": "Последние 30 дней · все организации",
+    "msValue": "{{value}} мс",
+    "summary": {
+      "average": "Среднее",
+      "median": "Медиана (p50)",
+      "p50": "p50",
+      "p95": "p95",
+      "p99": "p99",
+      "fastest": "Самый быстрый",
+      "slowest": "Самый медленный"
+    },
+    "chart": {
+      "title": "Задержка во времени",
+      "avg": "Среднее"
+    },
+    "table": {
+      "title": "Задержка по моделям",
+      "noData": "Пока нет данных",
+      "columns": {
+        "model": "Модель",
+        "requests": "Запросы",
+        "min": "Мин",
+        "max": "Макс"
+      }
+    },
+    "slowest": {
+      "title": "Самые медленные запросы (топ 20)",
+      "columns": {
+        "time": "Время",
+        "organization": "Организация",
+        "duration": "Длительность",
+        "tokens": "Токены",
+        "status": "Статус"
+      }
+    }
+  },
+  "platformSuccessRate": {
+    "title": "Успешность запросов",
+    "subtitle": "Последние 30 дней · все организации",
+    "noErrors": "Ошибок нет",
+    "summary": {
+      "successRate": "Успешность",
+      "errorRate": "Доля ошибок",
+      "totalRequests": "Всего запросов",
+      "distinctErrorCodes": "Уникальных кодов ошибок",
+      "succeeded": "успешно: {{count}}",
+      "failed": "с ошибкой: {{count}}",
+      "last30Days": "за последние 30 дней",
+      "uniqueStatusCodes": "уникальных кодов статуса"
+    },
+    "chart": {
+      "requestsOverTime": "Запросы во времени",
+      "errorRateOverTime": "Доля ошибок (%) во времени",
+      "success": "Успешно",
+      "errors": "Ошибки",
+      "errorRate": "Доля ошибок"
+    },
+    "byStatus": {
+      "title": "По коду статуса",
+      "code": "Код",
+      "count": "Количество",
+      "percentOfErrors": "% от ошибок"
+    },
+    "byModel": {
+      "title": "По моделям",
+      "model": "Модель",
+      "errors": "Ошибки",
+      "errorRate": "Доля ошибок"
+    },
+    "byOrg": {
+      "title": "По организациям",
+      "organization": "Организация",
+      "errors": "Ошибки",
+      "errorRate": "Доля ошибок"
+    }
+  },
+  "platformTokenUsage": {
+    "title": "Использование токенов",
+    "subtitle": "Последние 30 дней · все организации",
+    "chartTitle": "Использование токенов во времени",
+    "msValue": "{{value}} мс",
+    "summary": {
+      "totalTokens": "Всего токенов",
+      "today": "{{count}} сегодня",
+      "topOrg": "Организация-лидер",
+      "topModel": "Модель-лидер",
+      "tokensCount": "{{count}} токенов",
+      "noDataYet": "Пока нет данных"
+    },
+    "tabs": {
+      "byModel": "По моделям",
+      "byOrg": "По организациям"
+    },
+    "columns": {
+      "model": "Модель",
+      "tokens": "Токены",
+      "percentage": "Доля",
+      "requests": "Запросы",
+      "avgLatency": "Средняя задержка",
+      "organization": "Организация",
+      "topModel": "Топ-модель"
+    }
+  },
+  "platformRequests": {
+    "title": "Журнал запросов",
+    "totalRequests": "Всего {{count}} запросов по всем организациям",
+    "allRequests": "Все запросы платформы",
+    "loadingRequests": "Загрузка запросов…",
+    "noRequestsYet": "Пока нет запросов",
+    "msValue": "{{value}} мс",
+    "columns": {
+      "time": "Время",
+      "model": "Модель",
+      "user": "Пользователь",
+      "organization": "Организация",
+      "prompt": "Промпт",
+      "completion": "Ответ",
+      "totalTokens": "Всего токенов",
+      "latency": "Задержка",
+      "status": "Статус"
+    },
+    "detail": {
+      "requestId": "ID запроса",
+      "endpoint": "Эндпоинт",
+      "userId": "ID пользователя",
+      "orgId": "ID организации",
+      "error": "Ошибка"
+    },
+    "pagination": {
+      "range": "{{from}}–{{to}} из {{total}} запросов",
+      "show": "Показывать",
+      "previous": "← Назад",
+      "next": "Далее →"
+    }
+  },
+  "orgDepartments": {
+    "title": "Отделы",
+    "subtitle": "Управление отделами вашей организации",
+    "addButton": "+ Добавить отдел",
+    "addModal": {
+      "title": "Добавить отдел",
+      "nameLabel": "Название",
+      "namePlaceholder": "например, Инженерный",
+      "creating": "Создание…",
+      "create": "Создать отдел"
+    },
+    "table": {
+      "name": "Название",
+      "modelSettings": "Настройки моделей",
+      "apiKey": "API-ключ",
+      "users": "Пользователи",
+      "created": "Создан"
+    },
+    "modelSettings": {
+      "configured": "Настроено",
+      "default": "По умолчанию (всё разрешено)"
+    },
+    "apiKey": {
+      "assigned": "Назначен",
+      "notSet": "Не задан"
+    },
+    "empty": "Пока нет отделов",
+    "confirmDelete": {
+      "title": "Удалить отдел",
+      "message": "Окончательно удалить «{{name}}»? Пользователи, назначенные в этот отдел, будут откреплены.",
+      "confirmLabel": "Удалить отдел"
+    }
+  },
+  "orgUserEdit": {
+    "backToUsers": "← Пользователи",
+    "notFound": "Пользователь не найден.",
+    "saveFailed": "Не удалось сохранить",
+    "password": {
+      "mismatch": "Пароли не совпадают",
+      "tooShort": "Пароль должен содержать не менее 8 символов"
+    },
+    "profile": {
+      "title": "Профиль",
+      "phone": "Телефон"
+    },
+    "account": {
+      "title": "Учётная запись",
+      "role": "Роль",
+      "roleOptions": {
+        "member": "Пользователь",
+        "admin": "Администратор"
+      },
+      "department": "Отдел",
+      "noDepartment": "— нет —",
+      "balanceLabel": "Месячный лимит баланса (₽)",
+      "balancePlaceholder": "Без ограничений",
+      "spentPrefix": "Потрачено за этот период:",
+      "ofLimit": "из {{limit}} ₽",
+      "sincePeriod": "(с {{date}})",
+      "balanceHint": "Максимальная сумма в рублях, которую пользователь может потратить за месяц. Оставьте поле пустым, чтобы снять ограничение."
+    },
+    "modelAccess": {
+      "title": "Доступ к моделям",
+      "description": "Ограничения отдела имеют приоритет. Запрещённые модели недоступны этому пользователю.",
+      "textModels": "Текстовые модели",
+      "imageModels": "Модели изображений",
+      "loadingModels": "Загрузка моделей…",
+      "allowAll": "Разрешить все",
+      "forbidAll": "Запретить все",
+      "noDepartmentSelected": "Отдел не выбран",
+      "copyDepartmentPolicy": "Скопировать политику моделей отдела этому пользователю",
+      "resetToDepartment": "Сбросить к настройкам отдела",
+      "showForbidden": "Показать запрещённые модели",
+      "tableModel": "Модель",
+      "tableAccess": "Доступ",
+      "allowed": "Разрешено",
+      "blocked": "Заблокировано"
+    },
+    "changePassword": {
+      "title": "Смена пароля",
+      "resetLinkSent": "Ссылка для сброса отправлена.",
+      "resetLinkFailed": "Не удалось отправить.",
+      "hidePassword": "Скрыть пароль",
+      "showPassword": "Показать пароль",
+      "sending": "Отправка…",
+      "sendResetLink": "Отправить ссылку для сброса",
+      "newPassword": "Новый пароль",
+      "minChars": "минимум 8 символов",
+      "confirmPassword": "Подтвердите пароль",
+      "repeatPassword": "повторите пароль",
+      "success": "Пароль успешно изменён.",
+      "changing": "Изменение…",
+      "change": "Изменить пароль"
+    },
+    "dangerZone": {
+      "title": "Опасная зона",
+      "description": "Безвозвратно удалить этого пользователя. Это действие нельзя отменить.",
+      "deleteButton": "Удалить пользователя"
+    },
+    "confirmDelete": {
+      "title": "Удалить пользователя",
+      "message": "Окончательно удалить {{email}}? Это действие нельзя отменить.",
+      "confirmLabel": "Удалить пользователя"
+    }
+  },
+  "orgDepartmentEdit": {
+    "saveFailed": "Не удалось сохранить",
+    "notFound": "Отдел не найден.",
+    "backToDepartments": "← Отделы",
+    "userCount_one": "{{count}} пользователь",
+    "userCount_few": "{{count}} пользователя",
+    "userCount_many": "{{count}} пользователей",
+    "userCount_other": "{{count}} пользователя",
+    "general": {
+      "title": "Основные настройки",
+      "name": "Название",
+      "aiMediatorKey": "Ключ AI-медиатора",
+      "useFallbackKey": "— Использовать резервный ключ (уровня организации) —",
+      "keyFallbackLabel": "Ключ {{id}}…",
+      "aiMediatorKeyHint": "Участники будут использовать этот ключ при общении в чате.",
+      "balanceLabel": "Месячный лимит баланса (₽)",
+      "balancePlaceholder": "Без ограничений",
+      "spentPrefix": "Потрачено за этот период:",
+      "ofLimit": "из {{limit}} ₽",
+      "sincePeriod": "(с {{date}})",
+      "balanceHint": "Максимальная суммарная сумма в рублях, которую все участники могут потратить за месяц. Оставьте поле пустым, чтобы снять ограничение."
+    },
+    "tabs": {
+      "members": "Участники",
+      "policies": "Политики"
+    },
+    "members": {
+      "empty": "Пока нет участников.",
+      "table": {
+        "name": "Имя",
+        "role": "Роль",
+        "status": "Статус",
+        "joined": "Присоединился"
+      },
+      "roles": {
+        "admin": "Администратор",
+        "superadmin": "Суперадминистратор",
+        "member": "Пользователь"
+      },
+      "clickToDisable": "Нажмите, чтобы отключить",
+      "clickToEnable": "Нажмите, чтобы включить",
+      "active": "Активен",
+      "inactive": "Неактивен",
+      "remove": "Удалить",
+      "searchPlaceholder": "Поиск для добавления участника…",
+      "noUsersFound": "Пользователи не найдены",
+      "add": "Добавить"
+    },
+    "policies": {
+      "title": "Доступ к моделям",
+      "description": "Ограничения отдела имеют приоритет над настройками пользователя. Запрещённые модели недоступны участникам отдела.",
+      "textModels": "Текстовые модели",
+      "imageModels": "Модели изображений",
+      "loadingModels": "Загрузка моделей…",
+      "allowAll": "Разрешить все",
+      "forbidAll": "Запретить все",
+      "showForbidden": "Показать запрещённые модели",
+      "tableModel": "Модель",
+      "tableAccess": "Доступ",
+      "allowed": "Разрешено",
+      "blocked": "Заблокировано"
+    },
+    "dangerZone": {
+      "title": "Опасная зона",
+      "description": "Безвозвратно удалить этот отдел. Пользователи, назначенные в него, будут откреплены.",
+      "deleteButton": "Удалить отдел"
+    },
+    "confirmDelete": {
+      "title": "Удалить отдел",
+      "message": "Окончательно удалить «{{name}}»? Пользователи, назначенные в этот отдел, будут откреплены.",
+      "confirmLabel": "Удалить отдел"
+    }
+  },
+  "adminProviders": {
+    "title": "Провайдеры",
+    "subtitle": "Настройка вышестоящих AI API провайдеров",
+    "form": {
+      "editTitle": "Редактировать провайдера",
+      "addTitle": "Добавить провайдера",
+      "name": "Название (slug)",
+      "baseUrl": "Base URL",
+      "authHeaderName": "Имя заголовка авторизации",
+      "authHeaderPrefix": "Префикс заголовка авторизации",
+      "apiKey": "API-ключ (секрет провайдера)",
+      "addProvider": "Добавить провайдера"
+    },
+    "empty": "Провайдеры пока не настроены",
+    "table": {
+      "name": "Название",
+      "baseUrl": "Base URL",
+      "authHeader": "Заголовок авторизации",
+      "status": "Статус",
+      "active": "Активен",
+      "disabled": "Отключён",
+      "edit": "Изменить"
+    },
+    "confirmDelete": {
+      "title": "Удалить провайдера",
+      "message": "Окончательно удалить «{{name}}»? Это действие нельзя отменить.",
+      "confirmLabel": "Удалить провайдера"
+    }
+  },
+  "superAdminDashboard": {
+    "title": "Обзор платформы",
+    "header": {
+      "last": "За последние",
+      "daysOverview": "дней"
+    },
+    "stats": {
+      "totalRequests": "Всего запросов",
+      "lastNDays_one": "за последний {{count}} день",
+      "lastNDays_few": "за последние {{count}} дня",
+      "lastNDays_many": "за последние {{count}} дней",
+      "lastNDays_other": "за последние {{count}} дня",
+      "successRate": "Доля успешных",
+      "succeeded": "успешно: {{value}}",
+      "tokensUsed": "Использовано токенов",
+      "today": "{{value}} сегодня",
+      "avgLatency": "Средняя задержка",
+      "msValue": "{{value}} мс",
+      "perRequest": "на запрос"
+    },
+    "charts": {
+      "requestsPerDay": "Запросы по дням",
+      "tokenUsagePerDay": "Использование токенов по дням"
+    }
+  },
+  "adminOrganizations": {
+    "title": "Организации",
+    "subtitle_one": "{{count}} организация на платформе",
+    "subtitle_few": "{{count}} организации на платформе",
+    "subtitle_many": "{{count}} организаций на платформе",
+    "subtitle_other": "{{count}} организации на платформе",
+    "table": {
+      "organization": "Организация",
+      "created": "Создана",
+      "users": "Пользователи",
+      "departments": "Отделы",
+      "requests30d": "Запросы за 30 дн.",
+      "tokens30d": "Токены за 30 дн.",
+      "lastActive": "Последняя активность",
+      "admins": "Администраторы"
+    },
+    "loginAs": {
+      "failed": "Ошибка",
+      "noAdmins": "Нет администраторов",
+      "inactiveSuffix": " (неактивен)",
+      "opening": "Открытие…",
+      "loginAs": "Войти как"
+    }
+  },
+  "requests": {
+    "title": "Журнал запросов",
+    "totalRequests": "Всего запросов: {{count}}",
+    "allRequests": "Все запросы к API",
+    "loading": "Загрузка запросов…",
+    "empty": {
+      "title": "Пока нет запросов",
+      "subtitle": "Запросы появятся здесь, как только пользователи начнут обращаться к API"
+    },
+    "columns": {
+      "time": "Время",
+      "model": "Модель",
+      "user": "Пользователь",
+      "prompt": "Запрос",
+      "completion": "Ответ",
+      "totalTokens": "Всего токенов",
+      "cost": "Стоимость (₽)",
+      "latency": "Задержка",
+      "status": "Статус"
+    },
+    "msValue": "{{value}} мс",
+    "detail": {
+      "requestId": "ID запроса",
+      "endpoint": "Эндпоинт",
+      "userId": "ID пользователя",
+      "error": "Ошибка"
+    },
+    "pagination": {
+      "range": "{{from}}–{{to}} из {{total}} запросов",
+      "show": "Показывать",
+      "previous": "Назад",
+      "next": "Вперёд"
+    }
+  },
+  "auditLog": {
+    "actions": {
+      "userCreated": "Пользователь создан",
+      "userEnabled": "Пользователь включён",
+      "userDisabled": "Пользователь отключён",
+      "userInfoUpdated": "Данные пользователя обновлены",
+      "userPolicyUpdated": "Политика пользователя обновлена",
+      "userBalanceUpdated": "Баланс пользователя изменён",
+      "userDeleted": "Пользователь удалён",
+      "passwordResetSent": "Отправлена ссылка на сброс пароля",
+      "removedFromDept": "Удалён из отдела",
+      "departmentCreated": "Отдел создан",
+      "departmentInfoUpdated": "Данные отдела обновлены",
+      "departmentPolicyUpdated": "Политика отдела обновлена",
+      "departmentBalanceUpdated": "Баланс отдела изменён",
+      "departmentDeleted": "Отдел удалён",
+      "orgUpdated": "Организация обновлена",
+      "quotaUpdated": "Квота обновлена",
+      "apiKeySet": "API-ключ установлен",
+      "apiKeyRemoved": "API-ключ удалён",
+      "providerCreated": "Провайдер создан",
+      "providerUpdated": "Провайдер обновлён",
+      "providerDeleted": "Провайдер удалён"
+    },
+    "targetTypes": {
+      "user": "Пользователь",
+      "department": "Отдел",
+      "org": "Организация",
+      "provider": "Провайдер"
+    },
+    "export": {
+      "columns": {
+        "time": "Время",
+        "actor": "Инициатор",
+        "action": "Действие",
+        "targetType": "Тип объекта",
+        "target": "Объект",
+        "before": "До",
+        "after": "После",
+        "ip": "IP"
+      },
+      "sheetName": "Журнал аудита",
+      "pdfTitle": "Журнал аудита ({{label}})",
+      "exportedOn": "Экспортировано {{date}}",
+      "exportFailed": "Не удалось экспортировать",
+      "button": "Экспорт",
+      "periodLabel": "Период экспорта",
+      "from": "С",
+      "to": "По",
+      "periods": {
+        "today": "Сегодня",
+        "last7Days": "Последние 7 дней",
+        "last30Days": "Последние 30 дней",
+        "thisMonth": "Этот месяц",
+        "customRange": "Произвольный период"
+      }
+    },
+    "diff": {
+      "access": "Доступ",
+      "allowed": "разрешён",
+      "blocked": "запрещён",
+      "dailyLimit": "Дневной лимит",
+      "noModelChanges": "Изменений моделей не обнаружено",
+      "empty": "(пусто)",
+      "yes": "да",
+      "no": "нет",
+      "changed": "(изменено)",
+      "modelPolicyChanges": "Изменения политики моделей"
+    },
+    "filters": {
+      "allActions": "Все действия",
+      "allTargets": "Все объекты",
+      "searchPlaceholder": "Поиск по инициатору или объекту…",
+      "clearFilters": "Сбросить фильтры"
+    },
+    "entriesCount": "Записей: {{count}}",
+    "loading": "Загрузка журнала аудита…",
+    "empty": {
+      "title": "Записи не найдены",
+      "subtitle": "Попробуйте изменить фильтры или диапазон дат"
+    },
+    "pagination": {
+      "range": "{{from}}–{{to}} из {{total}}",
+      "previous": "Назад",
+      "next": "Вперёд"
+    }
+  },
+  "latency": {
+    "title": "Средняя задержка",
+    "subtitle": "Разбивка задержки за последние 30 дней",
+    "cards": {
+      "average": "Среднее",
+      "median": "Медиана (p50)",
+      "p95": "p95",
+      "p99": "p99",
+      "fastest": "Быстрейший",
+      "slowest": "Медленнейший"
+    },
+    "msValue": "{{value}} мс",
+    "chart": {
+      "title": "Задержка во времени",
+      "avg": "Среднее"
+    },
+    "byModel": {
+      "title": "Задержка по моделям"
+    },
+    "noData": "Данных пока нет",
+    "columns": {
+      "model": "Модель",
+      "requests": "Запросы",
+      "p50": "p50",
+      "min": "Мин",
+      "max": "Макс",
+      "time": "Время",
+      "user": "Пользователь",
+      "duration": "Длительность",
+      "tokens": "Токены",
+      "status": "Статус"
+    },
+    "slowest": {
+      "title": "Самые медленные запросы (топ 20)"
+    }
+  },
+  "successRate": {
+    "title": "Доля успешных запросов",
+    "subtitle": "Разбивка ошибок за последние 30 дней",
+    "cards": {
+      "successRate": "Доля успешных",
+      "succeeded": "Успешно: {{count}}",
+      "errorRate": "Доля ошибок",
+      "failed": "С ошибкой: {{count}}",
+      "totalRequests": "Всего запросов",
+      "last30Days": "за последние 30 дней",
+      "distinctErrorCodes": "Уникальных кодов ошибок",
+      "uniqueStatusCodes": "уникальных кодов статуса"
+    },
+    "charts": {
+      "requestsOverTime": "Запросы во времени",
+      "success": "Успешно",
+      "errors": "Ошибки",
+      "errorRateOverTime": "Доля ошибок (%) во времени",
+      "errorRate": "Доля ошибок"
+    },
+    "byStatusCode": {
+      "title": "По коду статуса",
+      "code": "Код",
+      "count": "Количество",
+      "pctOfErrors": "% ошибок"
+    },
+    "noErrors": "Ошибок нет",
+    "byModel": {
+      "title": "По модели",
+      "model": "Модель",
+      "errors": "Ошибки"
+    },
+    "byUser": {
+      "title": "По пользователю",
+      "user": "Пользователь"
+    },
+    "noRecords": "Записи не найдены",
+    "msValue": "{{value}} мс"
+  },
+  "tokenUsage": {
+    "title": "Использование токенов",
+    "subtitle": "Разбивка за последние 30 дней",
+    "cards": {
+      "totalTokens": "Всего токенов",
+      "today": "Сегодня: {{count}}",
+      "topUser": "Лидер по использованию",
+      "tokensCount": "{{count}} токенов",
+      "noDataYet": "Данных пока нет",
+      "topDepartment": "Отдел-лидер"
+    },
+    "chart": {
+      "title": "Использование токенов во времени"
+    },
+    "tabs": {
+      "byUser": "По пользователям",
+      "byDepartment": "По отделам",
+      "byModel": "По моделям"
+    },
+    "noDataYet": "Данных пока нет",
+    "columns": {
+      "user": "Пользователь",
+      "tokens": "Токены",
+      "percentage": "Доля",
+      "requests": "Запросы",
+      "topModel": "Основная модель",
+      "department": "Отдел",
+      "model": "Модель",
+      "avgLatency": "Средняя задержка"
+    },
+    "msValue": "{{value}} мс"
+  },
+  "orgUsers": {
+    "addModal": {
+      "title": "Добавить пользователя",
+      "firstNamePlaceholder": "Иван",
+      "lastNamePlaceholder": "Иванов",
+      "emailPlaceholder": "ivan@company.com",
+      "role": "Роль",
+      "department": "Отдел",
+      "creating": "Создание…",
+      "createUser": "Создать пользователя"
+    },
+    "createFailed": "Не удалось создать пользователя",
+    "subtitle": "Управление участниками вашей организации",
+    "addUser": "Добавить пользователя",
+    "loadingUsers": "Загрузка пользователей…",
+    "columns": {
+      "name": "Имя",
+      "role": "Роль",
+      "status": "Статус",
+      "joined": "Дата присоединения"
+    },
+    "filters": {
+      "searchName": "Поиск по имени…",
+      "searchEmail": "Поиск по email…",
+      "allRoles": "Все роли",
+      "allDepartments": "Все отделы",
+      "allStatuses": "Все статусы",
+      "allTime": "За всё время",
+      "today": "Сегодня",
+      "last7Days": "Последние 7 дней",
+      "last30Days": "Последние 30 дней",
+      "last3Months": "Последние 3 месяца",
+      "thisYear": "В этом году"
+    },
+    "status": {
+      "active": "Активен",
+      "inactive": "Неактивен",
+      "clickToDisable": "Нажмите, чтобы отключить",
+      "clickToEnable": "Нажмите, чтобы включить"
+    },
+    "me": "(вы)",
+    "noMatch": "Нет пользователей, соответствующих текущим фильтрам",
+    "clearFilters": "Сбросить фильтры",
+    "footer": {
+      "filteredCount": "{{filtered}} из {{total}} пользователей",
+      "totalCount": "Всего пользователей: {{count}}"
+    }
+  },
+  "dashboard": {
+    "last": "За последние",
+    "daysOverviewSuffix": "дней",
+    "stats": {
+      "totalRequests": "Всего запросов",
+      "successRate": "Процент успешных",
+      "tokensUsed": "Использовано токенов",
+      "avgLatency": "Средняя задержка",
+      "lastNDays": "за последние {{count}} дн.",
+      "succeeded": "{{count}} успешно",
+      "today": "{{count}} сегодня",
+      "perRequest": "на запрос",
+      "msValue": "{{value}} мс"
+    },
+    "spentThisMonth": "Потрачено в этом месяце",
+    "since": "с {{date}}",
+    "requestsPerDay": "Запросы по дням",
+    "tokenUsagePerDay": "Использование токенов по дням",
+    "billingCycle": {
+      "title": "Платёжный цикл",
+      "description": "Лимиты баланса пользователей и отделов обнуляются в этот день каждого месяца.",
+      "currentPeriodStarted": "Текущий период начался <strong>{{day}}</strong> числа.",
+      "resetOnThe": "Сброс",
+      "ofMonth": "числа месяца",
+      "maxDayNote": "Максимальное значение — 28, чтобы корректно работать во всех месяцах."
+    }
+  },
+  "deptDashboard": {
+    "title": "Обзор отдела",
+    "subtitle": "Последние 30 дней · активность вашего отдела",
+    "stats": {
+      "totalRequests": "Всего запросов",
+      "last30Days": "последние 30 дней",
+      "totalTokens": "Всего токенов",
+      "deptSpendThisMonth": "Расходы отдела в этом месяце",
+      "ofLimitSince": "из {{limit}} ₽ · с {{date}}"
+    },
+    "requestsPerDay": "Запросы по дням",
+    "noDataYet": "Пока нет данных",
+    "chartLegend": {
+      "requests": "Запросы",
+      "errors": "Ошибки"
+    },
+    "byModel": { "title": "По моделям" },
+    "byUser": { "title": "По пользователям" },
+    "columns": {
+      "model": "Модель",
+      "requests": "Запросы",
+      "tokens": "Токены",
+      "user": "Пользователь",
+      "topModel": "Основная модель"
+    }
+  },
+  "myDepartment": {
+    "notAssigned": "Вы не привязаны к отделу. Обратитесь к администратору.",
+    "addMember": "+ Добавить сотрудника",
+    "memberCount_one": "{{count}} участник",
+    "memberCount_few": "{{count}} участника",
+    "memberCount_many": "{{count}} участников",
+    "memberCount_other": "{{count}} участника",
+    "addForm": {
+      "firstNamePlaceholder": "Иван",
+      "lastNamePlaceholder": "Иванов",
+      "emailPlaceholder": "user@example.com",
+      "passwordPlaceholder": "минимум 8 символов",
+      "add": "Добавить",
+      "createError": "Не удалось создать пользователя"
+    },
+    "columns": {
+      "name": "Имя",
+      "email": "Email",
+      "limits": "Лимиты",
+      "joined": "Дата присоединения"
+    },
+    "me": "(я)",
+    "configured": "Настроено",
+    "default": "По умолчанию",
+    "noMembers": "Пока нет сотрудников"
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "periodColon": "Период:",
+    "periods": {
+      "today": "Сегодня",
+      "7d": "Последние 7 дней",
+      "30d": "Последние 30 дней",
+      "month": "Этот месяц",
+      "custom": "Произвольный"
+    },
+    "usageOverTime": "Использование по времени",
+    "metrics": { "requests": "Запросы", "tokens": "Токены" },
+    "byModel": { "title": "По моделям", "empty": "Нет данных об использовании моделей за этот период" },
+    "byUser": { "title": "По пользователям", "empty": "Нет активности пользователей за этот период" },
+    "byDepartment": { "title": "По отделам", "empty": "Нет активности отделов за этот период" },
+    "columns": {
+      "model": "Модель",
+      "requests": "Запросы",
+      "tokens": "Токены",
+      "avgLatency": "Средняя задержка",
+      "name": "Имя",
+      "email": "Email",
+      "topModel": "Основная модель",
+      "department": "Отдел",
+      "time": "Время",
+      "user": "Пользователь",
+      "latency": "Задержка",
+      "status": "Статус"
+    },
+    "msValue": "{{value}} мс",
+    "requestLog": {
+      "title": "Журнал запросов",
+      "loading": "Загрузка запросов…",
+      "empty": { "title": "Нет запросов за этот период", "subtitle": "Попробуйте расширить диапазон дат" }
+    },
+    "pagination": {
+      "range": "{{from}}–{{to}} из {{total}} запросов",
+      "show": "Показать",
+      "previous": "← Назад",
+      "next": "Далее →"
+    },
+    "export": {
+      "button": "Экспорт",
+      "periodLabel": "Период экспорта",
+      "from": "С",
+      "to": "По",
+      "exportFailed": "Не удалось выполнить экспорт"
+    },
+    "exportPeriods": {
+      "today": "Сегодня",
+      "7d": "Последние 7 дней",
+      "30d": "Последние 30 дней",
+      "month": "Этот месяц",
+      "custom": "Произвольный диапазон"
+    }
+  },
+  "chat": {
+    "thinking": "Размышление…",
+    "errors": {
+      "insufficientBalance": "Недостаточно средств на счёте AI Mediator. Пополните баланс и попробуйте снова.",
+      "requestFailed": "Ошибка запроса"
+    },
+    "imageFallbackTitle": "📷 Изображение",
+    "newChat": "Новый чат",
+    "noConversations": "Пока нет диалогов",
+    "history": {
+      "groups": {
+        "today": "Сегодня",
+        "yesterday": "Вчера",
+        "last7Days": "Последние 7 дней",
+        "older": "Ранее"
+      }
+    },
+    "deleteConversation": "Удалить диалог",
+    "monthlyBudget": "Месячный бюджет",
+    "ofLimit": "из {{limit}} ₽",
+    "dropImageHere": "Перетащите изображение сюда",
+    "keyConfigured": "Ключ AI Mediator настроен",
+    "noApiKey": "Нет API-ключа",
+    "addOne": "добавить",
+    "noDepartment": "Вы не привязаны к отделу — API-ключ недоступен.",
+    "noDepartmentKey": "У вашего отдела не назначен API-ключ.",
+    "contactAdmin": "Обратитесь к администратору.",
+    "model": "Модель",
+    "refreshModelList": "Обновить список моделей",
+    "refresh": "↻ Обновить",
+    "loadingModels": "Загрузка моделей…",
+    "noModelsAvailable": "— нет доступных моделей —",
+    "failedToLoadModels": "Не удалось загрузить модели — проверьте баланс API-ключа.",
+    "dailyLimitReached": "Достигнут дневной лимит токенов ({{limit}} токенов). Лимит обновится завтра.",
+    "tokensUsedToday": "Использовано токенов сегодня",
+    "chatUnavailable": "Чат недоступен",
+    "noDepartmentNoKey": "Вы не привязаны к отделу и у вас нет API-ключа. Обратитесь к администратору.",
+    "noDepartmentKeyLong": "У вашего отдела не назначен API-ключ. Обратитесь к администратору.",
+    "startConversation": "Начните диалог",
+    "modelViaMediator": "{{model}} · AI Mediator",
+    "selectModelAbove": "Выберите модель выше",
+    "dragDropHint": "Перетащите или вставьте изображение, чтобы прикрепить его",
+    "aiAvatar": "AI",
+    "meAvatar": "Я",
+    "attachedImageAlt": "вложение",
+    "attachmentPreviewAlt": "предпросмотр вложения",
+    "attachImage": "Прикрепить изображение",
+    "messagePlaceholder": "Введите сообщение… (Enter — отправить, Shift+Enter — новая строка)",
+    "poweredBy": "Работает на AI Mediator · запросы проходят через шлюз вашей организации"
+  },
+  "imageGen": {
+    "errors": {
+      "insufficientBalance": "Недостаточно средств на счёте AI Mediator. Пополните баланс и попробуйте снова.",
+      "requestFailed": "Ошибка запроса"
+    },
+    "newImage": "Новое изображение",
+    "noImagesYet": "Пока нет изображений",
+    "deleteImage": "Удалить изображение",
+    "monthlyBudget": "Месячный бюджет",
+    "ofLimit": "из {{limit}} ₽",
+    "keyConfigured": "Ключ AI Mediator настроен",
+    "noApiKey": "Нет API-ключа",
+    "addOne": "добавить",
+    "model": "Модель",
+    "refresh": "↻ Обновить",
+    "noModels": "— нет моделей —",
+    "noApiKeyShort": "— нет API-ключа —",
+    "failedToLoadModels": "Не удалось загрузить модели",
+    "size": "Размер",
+    "defaultOption": "По умолчанию",
+    "quality": "Качество",
+    "qualityOptions": {
+      "default": "По умолчанию",
+      "low": "Низкое",
+      "medium": "Среднее",
+      "high": "Высокое"
+    },
+    "count": "Количество",
+    "generateAnImage": "Сгенерируйте изображение",
+    "enterApiKeyHint": "Введите API-ключ, чтобы начать",
+    "enterPromptHint": "Введите запрос ниже и нажмите «Сгенерировать»",
+    "generatingImage": "Генерация изображения…",
+    "elapsedHint": "{{count}} с · это может занять до минуты",
+    "qualitySuffix": "качество: {{quality}}",
+    "download": "Скачать",
+    "openFullSize": "Открыть в полном размере",
+    "revisedPrefix": "Изменено:",
+    "promptPlaceholder": "Опишите изображение, которое хотите сгенерировать… (Enter — сгенерировать)",
+    "generatingShort": "Генерация… {{count}} с",
+    "generate": "Сгенерировать",
+    "poweredBy": "Работает на AI Mediator · изображения хранятся в шлюзе вашей организации"
+  }
+}
